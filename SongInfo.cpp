@@ -1,7 +1,5 @@
 #include "SongInfo.h"
 
-
-
 SongInfo::SongInfo(string Nombre, string Disco, string Artista, string RutaMp3)
 {
     this->Nombre = Nombre;
