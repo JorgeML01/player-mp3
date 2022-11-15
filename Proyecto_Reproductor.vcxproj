@@ -139,13 +139,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayList.cpp" />
+    <ClCompile Include="Genero.cpp" />
+    <ClCompile Include="GeneroFileFijo.cpp" />
+    <ClCompile Include="GeneroFileVariable.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Playlist.cpp" />
+    <ClCompile Include="PlaylistFileFijo.cpp" />
+    <ClCompile Include="PlaylistFileVariable.cpp" />
+    <ClCompile Include="SongInfo.cpp" />
+    <ClCompile Include="SongInfoFileFijo.cpp" />
+    <ClCompile Include="SongInfoFileVariable.cpp" />
     <ClCompile Include="TDAArchivo.cpp" />
+    <ClCompile Include="TDAList.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="Genero.h" />
+    <ClInclude Include="GeneroFileFijo.h" />
+    <ClInclude Include="GeneroFileVariable.h" />
     <ClInclude Include="Object.h" />
+    <ClInclude Include="Playlist.h" />
+    <ClInclude Include="PlaylistFileFijo.h" />
+    <ClInclude Include="PlaylistFileVariable.h" />
+    <ClInclude Include="SongInfo.h" />
+    <ClInclude Include="SongInfoFileFijo.h" />
+    <ClInclude Include="SongInfoFileVariable.h" />
     <ClInclude Include="TDAArchivo.h" />
+    <ClInclude Include="TDAList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
