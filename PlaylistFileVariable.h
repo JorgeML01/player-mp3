@@ -8,7 +8,7 @@ class PlaylistFileVariable : public TDAArchivo
 {
 public:
 	//Constructor.
-	PlaylistFileVariable();
+	PlaylistFileVariable(string fileName);
 
 	//Funciones.
 	virtual void escribir();

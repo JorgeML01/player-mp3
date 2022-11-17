@@ -9,7 +9,7 @@ class SongInfoFileFijo : public TDAArchivo
 {
 public:
 	//Constructor.
-	SongInfoFileFijo();
+	SongInfoFileFijo(string fileName);
 
 	//Funciones.
 	virtual void escribir();

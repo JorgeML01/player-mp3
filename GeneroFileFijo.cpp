@@ -1,6 +1,6 @@
 #include "GeneroFileFijo.h"
 
-GeneroFileFijo::GeneroFileFijo()
+GeneroFileFijo::GeneroFileFijo(string fileName) : TDAArchivo(fileName)
 {
 }
 

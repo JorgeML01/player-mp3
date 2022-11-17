@@ -8,7 +8,7 @@ class PlaylistFileFijo : public TDAArchivo
 {
 public:
 	//Constructor.
-	PlaylistFileFijo();
+	PlaylistFileFijo(string fileName);
 
 	//Funciones.
 	virtual void escribir();

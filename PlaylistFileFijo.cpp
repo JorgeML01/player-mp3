@@ -1,6 +1,6 @@
 #include "PlaylistFileFijo.h"
 
-PlaylistFileFijo::PlaylistFileFijo()
+PlaylistFileFijo::PlaylistFileFijo(string fileName) : TDAArchivo(fileName)
 {
 }
 

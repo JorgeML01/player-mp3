@@ -9,7 +9,7 @@ class GeneroFileFijo : public TDAArchivo
 {
 public:
 	//Constructor.
-	GeneroFileFijo();
+	GeneroFileFijo(string fileName);
 
 	//Funciones.
 	virtual void escribir();

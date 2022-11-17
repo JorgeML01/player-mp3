@@ -1,6 +1,6 @@
 #include "SongInfoFileFijo.h"
 
-SongInfoFileFijo::SongInfoFileFijo()
+SongInfoFileFijo::SongInfoFileFijo(string fileName) : TDAArchivo(fileName)
 {
 }
 

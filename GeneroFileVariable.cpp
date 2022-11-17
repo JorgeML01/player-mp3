@@ -1,6 +1,6 @@
 #include "GeneroFileVariable.h"
 
-GeneroFileVariable::GeneroFileVariable()
+GeneroFileVariable::GeneroFileVariable(string fileName) : TDAArchivo(fileName)
 {
 }
 

@@ -9,7 +9,7 @@ class SongInfoFileVariable : public TDAArchivo
 {
 public:
 	//Constructor.
-	SongInfoFileVariable();
+	SongInfoFileVariable(string fileName);
 
 	//Funciones.
 	virtual void escribir();

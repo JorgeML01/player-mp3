@@ -9,7 +9,7 @@ class GeneroFileVariable : public TDAArchivo
 {
 public:
 	//Constructor.
-	GeneroFileVariable();
+	GeneroFileVariable(string fileName);
 
 	//Funciones.
 	virtual void escribir();

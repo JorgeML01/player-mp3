@@ -1,6 +1,6 @@
 #include "PlaylistFileVariable.h"
 
-PlaylistFileVariable::PlaylistFileVariable()
+PlaylistFileVariable::PlaylistFileVariable(string fileName) : TDAArchivo(fileName)
 {
 }
 

@@ -1,6 +1,6 @@
 #include "SongInfoFileVariable.h"
 
-SongInfoFileVariable::SongInfoFileVariable()
+SongInfoFileVariable::SongInfoFileVariable(string fileName) : TDAArchivo(fileName)
 {
 }
 
